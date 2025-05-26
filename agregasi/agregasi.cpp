@@ -15,6 +15,20 @@ int main ()
 
     varibu -> tambahAnak (varAnak1);
     varibu -> tambahAnak (varAnak2); 
+    varibu -> tambahAnak (varAnak3); 
+    varibu2 -> tambahAnak (varAnak1); 
+
+    varibu -> cetakAnak ();
+    varibu2 -> cetakAnak ();
+
+    delete varibu;
+    delete varibu2;
+    delete varAnak1;
+    delete varAnak2;
+    delete varAnak3;
+
+    return 0;
+
 }
 
 
