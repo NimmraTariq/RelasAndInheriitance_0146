@@ -3,6 +3,6 @@
 
 class ibu 
 {
-    public:
-    
+    public: 
+
 }
