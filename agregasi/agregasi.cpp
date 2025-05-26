@@ -6,7 +6,7 @@ using namespace std;
 #include "ibu.h" 
 
 int main ()
-{
+{ //agregasi
     ibu *varibu = new ibu ("dini");
     ibu *varibu2 = new ibu ("novi"); 
     anak *varAnak1 = new anak ("tono");
@@ -26,6 +26,8 @@ int main ()
     delete varAnak1;
     delete varAnak2;
     delete varAnak3 ;
+
+    system ("pause");
 
     return 0;
 
