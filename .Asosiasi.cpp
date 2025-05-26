@@ -29,7 +29,7 @@ public:
     }
 
     ~dokter() {
-        cout << "Dokter \"" << nama << "\" tidak ada\n"; // Commit: Dokter object deleted and message shown
+        cout << "Dokter \"" << nama << "\" tidak ada\n";
     }
 
     void tambahPasien(pasien*);
