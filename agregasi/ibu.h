@@ -11,4 +11,6 @@ class ibu
 {
     cout<< "Ibu \" " <<nama<< "\" ada \n";
 }
-}
+~ibu()    
+
+};
