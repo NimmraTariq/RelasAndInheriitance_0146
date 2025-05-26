@@ -25,3 +25,16 @@ public:
     vector<pasien*> daftar_pasien;
 
     dokter(string pNama) : nama(pNama) {
+         cout << "Dokter \"" << nama << "\" ada\n"; 
+    }
+
+    ~dokter() {
+        cout << "Dokter \"" << nama << "\" tidak ada\n"; // Commit: Dokter object deleted and message shown
+    }
+
+    void tambahPasien(pasien*);
+    void cetakPasien();
+};
+
+void pasien::tambahDokter(dokter* pDokter) {
+    daftar_dokter.push_back(pDokter);
