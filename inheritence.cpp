@@ -12,7 +12,7 @@ public:
     }
 
     ~orang() {
-        cout << "orang dihapus\n" << endl; // Commit: Destructor outputs message when orang is destroyed
+        cout << "orang dihapus\n" << endl;
     }
 
     int jumlah(int a, int b) {
