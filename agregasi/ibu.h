@@ -7,7 +7,8 @@ class ibu
     string nama;
     vector<anak *> daftar_anak;
 
-    ibu (string pNama) : nama (pNama)
+    ibu (string pNama) : nama (pNama )
+    
 {
     
 }
