@@ -22,4 +22,6 @@ void ibu::tambahAnak(anak *pAnak)
 {
     daftar_anak.push_back(pAnak); 
 }
-
+void ibu::cetakAnak()  
+{
+    cout << "Daftar Anak dari Ibu \"" << this->nama << "\":\n"; 
