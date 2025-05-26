@@ -16,7 +16,7 @@ public:
     }
 
     int jumlah(int a, int b) {
-        return a + b; // Commit: Simple method to sum two integers
+        return a + b;
     }
 };
 
@@ -25,7 +25,7 @@ public:
     string sekolah;
 
     pelajar(string pNama, string pSekolah) : orang(pNama), sekolah(pSekolah) {
-        cout << "pelajar dibuat\n" << endl; // Commit: pelajar constructor initializes base class and sekolah
+        cout << "pelajar dibuat\n" << endl; 
     }
 
     ~pelajar() {
