@@ -13,8 +13,7 @@ public:
     }
 
     ~manusia() {
-        cout << name << " mati\n"; // Commit: Print message when manusia object is destroyed (dies)
-    }
+        cout << name << " mati\n" ; 
 };
 
 #endif
