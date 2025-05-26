@@ -29,7 +29,7 @@ public:
     }
 
     ~pelajar() {
-        cout << "pelajar dihapus\n" << endl; // Commit: Destructor message for pelajar
+        cout << "pelajar dihapus\n" << endl; 
     }
 
     string perkenalan() {
